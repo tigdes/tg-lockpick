@@ -10,4 +10,6 @@ INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`, `type`, `u
 /*!40000 ALTER TABLE `items` ENABLE KEYS */;
 
 
+Video: https://streamable.com/ah3tah
+
 Orjinal Script: https://github.com/qbcore-framework/qb-lockpick
