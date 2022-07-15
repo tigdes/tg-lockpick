@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300,900);
+ html, body {
+	 width: 100%;
+	 height: 100%;
+	 padding: 0;
+	 margin: 0;
+	 font-family: 'Lato', helvetica, arial, sans-serif;
+}
+ body {
+	 display: inline-block;
+	 overflow: hidden;
+}
+
+#wrap {
+	 display: block;
+	 position: relative;
+	 width: 25%;
+	 margin: 5% auto;
+	 overflow: visible;
+}
+
+p {
+	 color: #fde470;
+	 color: #2f2;
+	 text-align: center;
+	 font-weight: 400;
+	 font-size: 1.2em;
+	 padding: 0;
+	 margin: 0.5em;
+}
+ p.disclaimer {
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 opacity: 0.5;
+	 font-size: 0.9em;
+	 color: #000;
+	 font-weight: 300;
+}
+ #collar {
+	 display: block;
+	 position: relative;
+	 width: 100%;
+	 height: 100%;
+}
+ #cylinder {
+	 display: block;
+	 background: url('');
+	 background-size: cover;
+	 width: 10.914%;
+	 height: 10.914%;
+	 position: absolute;
+	 top: 45.9%;
+	 left: 72%;
+}
+ #driver {
+	 display: block;
+	 width: 50%;
+	 height: 20%;
+	 background: url('https://cdn.discordapp.com/attachments/892827998657581106/913940950491996170/driver.png');
+	 background-size: cover;
+	 position: absolute;
+	 top: 50.9%;
+	 left: 81%;
+	 transform-origin: 3% -3%;
+}
+ #pin {
+	 display: block;
+	 background-size: cover;
+	 width: 5.1304%;
+	 height: 50.4347%;
+	 position: absolute;
+	 left: 79.4%;
+	 top: 0%;
+	 transform-origin: 50% 99%;
+}
+ #pin .top {
+	 display: block;
+	 width: 100%;
+	 height: 50%;
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 background: url('https://cdn.discordapp.com/attachments/892827998657581106/914264908475039785/son_tel_toka_krlmams.png');
+	 background-size: cover;
+}
+ #pin .bott {
+	 display: block;
+	 width: 100%;
+	 height: 50%;
+	 position: absolute;
+	 top: 48%;
+	 left: 0;
+	 background: url('https://cdn.discordapp.com/attachments/892827998657581106/914264920353280082/krlms_tel_toka_.png');
+	 background-size: cover;
+}
+ #modal {
+	 display: block;
+	 overflow: auto;
+	 position: fixed;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 background: rgba(0, 0, 0, 0.8);
+	 text-align: center;
+}
+ #modal div {
+	 margin-top: 5%;
+	 display: inline-block;
+	 background: #fff;
+	 border-radius: 20px;
+	 box-sizing: border-box;
+	 padding: 1%;
+}
+#modal div h1 {
+	 margin-bottom: 0.22em;
+}
+ #modal div h2 {
+	 margin-top: 0;
+	 margin-bottom: 1.5em;
+	 font-size: 1.4em;
+}
+ #modal div h3 {
+	 font-size: 1.1em;
+}
+ #modal div h4 {
+	 font-size: 0.8em;
+}
+ #modal #win {
+	 display: block;
+}
+ #modal #lose {
+	 display: block;
+}
+ 
